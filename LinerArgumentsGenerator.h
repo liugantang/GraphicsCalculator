@@ -14,8 +14,8 @@ struct LinerArgumentsGeneratorPrivate;
 
 struct LinerArguments{
     QList<std::array<double, 2>>  points;
-    double minX = 0, maxX = 0;
-    double minY = 0, maxY = 0;
+    double xMin = 0, xMax = 0;
+    double yMin = 0, yMax = 0;
 };
 
 class LinerArgumentsGenerator {

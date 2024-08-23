@@ -25,9 +25,6 @@ DrawPanel::~DrawPanel(){
 void DrawPanel::init() {
     d->chart = new QChart();
     auto series = new QLineSeries(this);
-    //![1]
-
-    //![2]
     series->append(-1,-1);
     series->append(0, 6);
     series->append(2, 4);

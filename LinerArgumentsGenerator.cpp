@@ -10,6 +10,7 @@ LinerArgumentsGenerator::LinerArgumentsGenerator(QString expression, FunctionDef
 d(new LinerArgumentsGeneratorPrivate){
     d->expression = std::move(expression);
     d->definitions = defs;
+
 }
 
 LinerArgumentsGenerator::~LinerArgumentsGenerator() {
